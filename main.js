@@ -4,7 +4,7 @@ tiempo = Array();
 var my = 0; // Variable para la peor Vuelta
 var my2 = Infinity; //Variable para la mejor vuelta
 var suma = 0;
-
+j=1;
 
 function peorResultado(a,b) {
 
@@ -19,7 +19,18 @@ function peorResultado(a,b) {
 }
 
 function mejorResultado(a,c) {
-
+/* Si se prefiere sacar el numero en concreto de la vuelta
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] < c) {
+            c = a[i]
+         
+            f=j
+                       
+        }
+        j++
+        
+    }
+*/
     for (let i = 0; i < a.length; i++) {
            if(a[i] < c){
                c = a[i]
